@@ -46,7 +46,7 @@ export default function App() {
       ) : (
         <View> 
           <ActivityIndicator size="large" color="green" />
-          <Text>Carregando ...</Text>
+          <Text style={styles.loading}>Carregando ...</Text>
         </View>
       )}
 
@@ -104,4 +104,8 @@ subtitulo: {
   fontWeight: 'bold',
   color: 'white',
 },
+loading: {
+  fontSize: 20,
+  fontWeight: 'bold'
+}
 });
