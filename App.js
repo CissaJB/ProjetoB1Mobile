@@ -39,8 +39,8 @@ export default function App() {
             <Text style={styles.titulo}>{filme.attributes.titulo}</Text>
             <Text style={styles.subtitulo}>{filme.attributes.subtitulo}</Text>
             <Text style={styles.sinopse}>{filme.attributes.sinopse}</Text>
-            <Button color={'black'} style={styles.btn} title="Ver Horários"/>
-            <Button color={'black'} style={styles.btn} title="Comprar"/>
+            <Button color={'black'} title="Ver Horários"/>
+            <Button color={'black'} title="Comprar"/>
           </Card>
         ))
       ) : (
