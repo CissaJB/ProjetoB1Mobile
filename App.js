@@ -32,7 +32,7 @@ export default function App() {
     <View style={styles.container}>
       {filmes.length > 0 ? (
         filmes.map(filme => (
-          <Card>
+          <Card key={filme.id}>
             <Image source={{
               uri:imgURL + filme.attributes.poster.data.attributes.url}} 
               style={styles.poster}/>
