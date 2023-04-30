@@ -79,12 +79,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: 'white'
   },
-  viewImg: {
-    backgroundColor: 'yellow',
-    padding: 8,
-    height: '100%',
-    width: '30%'
-},
+  
 card: {
   backgroundColor: '#007A78',
   borderRadius: 8,
